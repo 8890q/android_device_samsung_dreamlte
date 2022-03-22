@@ -22,5 +22,5 @@
           {incr} - Incremental version
     -->
     <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/ivanmeler/ota_provider/master/19.1/dreamlte.json</string>
-    <string name="menu_changelog_url" translatable="false">https://github.com/ivanmeler/ota_provider/blob/master/19.1/universal8895.md</string>
+    <string name="menu_changelog_url" translatable="false">https://ivanmeler.github.io/changes/dreamlte.html</string>
 </resources>
