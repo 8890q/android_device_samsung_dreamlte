@@ -20,6 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml
 
+# Glove mode
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.universal8895
+
 # Inherit from common
 $(call inherit-product, device/samsung/universal8895-common/device-common.mk)
 
