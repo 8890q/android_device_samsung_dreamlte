@@ -1,3 +1,7 @@
+# Audio effects
+vendor/lib64/soundfx/libswdap.so
+vendor/lib/soundfx/libswdap.so
+
 # Camera
 lib/hw/camera.universal8895.so:lib/hw/camera.vendor.universal8895.so
 lib/libFacePreProcessing.camera.samsung.so
