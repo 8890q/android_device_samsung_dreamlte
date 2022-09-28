@@ -76,4 +76,7 @@ patch_firmware $BLOB_ROOT/vendor/firmware/fimc_is_rta_2l2_imx320.bin
 patch_firmware $BLOB_ROOT/vendor/firmware/fimc_is_rta_imx333_3h1.bin
 patch_firmware $BLOB_ROOT/vendor/firmware/fimc_is_rta_imx333_imx320.bin
 
+"${PATCHELF}" --add-needed libprocessgroup.so $BLOB_ROOT/lib/libhifills_interface.so
+"${PATCHELF}" --add-needed libprocessgroup.so $BLOB_ROOT/lib64/libhifills_interface.so
+
 "${MY_DIR}/setup-makefiles.sh"
