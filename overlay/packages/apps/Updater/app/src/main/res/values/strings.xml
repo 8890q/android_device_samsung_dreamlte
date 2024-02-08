@@ -21,6 +21,6 @@
           {type} - Build type
           {incr} - Incremental version
     -->
-    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/ivanmeler/ota_provider/master/20.0/dreamlte.json</string>
-    <string name="menu_changelog_url" translatable="false">https://ivanmeler.github.io/changes/dreamlte-20.html</string>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/ivanmeler/ota_provider/master/21.0/dreamlte.json</string>
+    <string name="menu_changelog_url" translatable="false">https://ivanmeler.github.io/changes/dreamlte-21.html</string>
 </resources>
